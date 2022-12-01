@@ -1,5 +1,5 @@
 # ALIAKSANDR HRADOVIC
----
+
 ## Contacts
 * Minsk, Belarus
 * +375(33)6632585
@@ -17,7 +17,7 @@ _Translated with google translator_
 ## Skills
 * HTML
 * CSS
-* JS (in proces)
+* JS (in process)
 
 ## Code Example
 My first step in JS
@@ -32,3 +32,16 @@ function multiply(a, b){
 1. [SOCIAL CODE](https://github.com/AL424/SOCIAL-CODE.git) (HTML, CSS)
 2. [Full View Application](https://github.com/AL424/FullViewApp.git) (HTML, CSS)
 3. [Training JS](https://github.com/AL424/Training-JS.git) (HTML, CSS, JS)
+
+## Education
+* Belarusian National Technical University
+* Courses:
+    + [Web developer: beginning](https://wayup.in/ru/library/course10)
+    + [Web developer: freelancer code](https://wayup.in/ru/library/course7)
+    + [JavaScript/Front-end. Stage 0](https://rs.school/js-stage0/) (in process)
+
+## Languages
+* **Russian** native speaker
+* **English** A0-A1 (in process)
+
+---
