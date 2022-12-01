@@ -1,4 +1,4 @@
-# ALIAKSANDR HRADOVIC
+# ALIAKSANDR HRADOVICH
 
 ## Contacts
 * Minsk, Belarus
