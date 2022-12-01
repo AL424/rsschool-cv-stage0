@@ -18,3 +18,12 @@ _Translated with google translator_
 * HTML
 * CSS
 * JS (in proces)
+
+## Code Example
+My first step in JS
+
+```
+function multiply(a, b){
+  return a * b;
+}
+```
