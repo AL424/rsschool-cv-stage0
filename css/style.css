@@ -1,0 +1,385 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    background-image: url('../img/bg-img.png'), linear-gradient(to right, #02315E 0%, #02315E 100%);
+    background-position: top center;
+    background-repeat: no-repeat;
+    color: #dec5c9;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    margin: 0;
+    padding: 0;
+    color: #d56e7d;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 120%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 120%;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #dec5c9;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 40px 0 60px 0;
+}
+
+section {
+    padding: 40px 0 60px 0;
+    border-bottom: 1px solid #d56e7d;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+/* nav */
+
+.menu {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+}
+
+.menu__item:not(:first-child) {
+    margin-left: 20px;
+}
+
+.menu__link {
+    display: block;
+    padding: 30px 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    transition: border-bottom 0.5s ease;
+    transition: color 0.5s ease;
+}
+
+.menu__link:hover {
+    border-bottom: 2px solid #ff0000;
+    color: #ff0000;
+}
+
+/* header */
+
+.header-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-wrap {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+.subtitle span {
+    color: #ff0000;
+}
+
+.about-me-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.about-me {
+    max-width: 472px;
+}
+
+.about-me:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+/* contacts */
+
+.contacts-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    width: 20%;
+    text-align: center;
+    background-color: #dec5c9;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #010f1d;
+}
+
+.contact a {
+    display: block;
+    padding: 30px 0;
+}
+
+.contact_icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.contact_name {
+    display: block;    
+    color: #010f1d;
+}
+
+.contact_name span {
+    color: #d00000;
+}
+
+.contact_info {
+    display: block;
+    color: #010f1d;
+}
+
+.contact:hover .contact_info {
+    color: #d00000;
+}
+
+/* skills */
+
+.skills__list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+.skill span {
+    color: #ff0000;
+}
+
+/* code-example */
+
+.code-subtitle {
+    display: block;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.code-item__title {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.code {
+    padding: 30px 30px 30px 120px;
+    height: 500px;
+    overflow: scroll;
+    background-color: #dec5c9;
+    color: #010f1d;
+}
+
+.code-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+/* experience */
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project_left {
+    margin-right: 100px;
+}
+
+.project_right {
+    margin-left: 100px;
+}
+
+.project:not(:last-child) {
+    margin-bottom: 70px;
+}
+
+.project__link {
+    display: flex;
+    width: 960px;
+    height: 540px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.project__link_left {
+    justify-content: start;
+}
+
+.project__link_social-code {
+    background-image: linear-gradient(to right, rgba(222,197,201,0.5) 0%, rgba(222,197,201,0.8) 100%),
+    url('../img/project-social-code.jpg');
+}
+
+.project__link_full-view-app {
+    background-image: linear-gradient(to right, rgba(222,197,201,0.5) 0%, rgba(222,197,201,0.8) 100%),
+    url('../img/project-full-view-app.jpg');
+}
+
+.project__link_training-js {
+    background: linear-gradient(to right, rgba(222,197,201,0.5) 0%, rgba(222,197,201,0.8) 100%), 
+    url('../img/project-training-js.jpg');
+}
+
+.project__info {
+    margin-right: 70px;
+    text-align: end;
+}
+
+.project__info_left {
+    margin-left: 70px;
+    text-align: start;
+}
+
+.project__skills {
+    color: #d00000;
+    transition: font-size 0.5s ease;
+}
+
+.project__title {
+    color: #010f1d;
+    font-size: 50px;
+    line-height: 120%;
+    transition: font-size 0.5s ease;
+}
+
+.project:hover .project__title {
+    font-size: 60px;
+}
+
+.project:hover .project__skills {
+    font-size: 18px;
+}
+
+/* education */
+
+.education__list {
+    font-size: 25px;
+    line-height: 200%;
+}
+
+.education__item span,
+.university span,
+.course span {
+    color: #ff0000;
+}
+
+.course,
+.university {
+    margin-left: 40px;
+}
+
+.course a,
+.university a {
+    transition: color 0.5s ease;
+}
+
+.course a:hover,
+.university a:hover {
+    color: #ff0000;
+}
+
+/* languages */
+
+.languages {
+    border-bottom: none;
+}
+
+.language {
+    font-size: 25px;
+    line-height: 200%;
+}
+
+.language span {
+    color: #ff0000;
+}
+
+/* footer */
+
+.footer {
+    background-color: #d56e7d;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github-link {
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-image: url("../img/icon-github.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer-year {
+    font-size: 20px;
+    color: #02315E;
+}
+
+.rsschool-link {
+    display: block;
+    width: 150px;
+    height: 50px;
+    background-image: url("../img/logo-rsschool.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
